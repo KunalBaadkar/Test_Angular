@@ -1,0 +1,7 @@
+---
+applications :
+- name: "Test"
+  path : "dist/Test"
+  memory : 256M
+  buildpack :
+ - "https://github.com/cloudfoundry/staticfile-buildpack.git"
